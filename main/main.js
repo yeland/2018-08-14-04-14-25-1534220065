@@ -1,5 +1,5 @@
 module.exports = function main() {
-    console.log("Debug Info");
+    //console.log("Debug Info");
     //return 'Hello World!';
 	
 	if(arguments.length===0){
@@ -13,10 +13,10 @@ module.exports = function main() {
   var str = arguments[0];
   var length = str.length;
   var arr = new Array();
-  var sum = 0;
+  //var sum = 0;
   for(var i=0;i<length;i++){
 	  arr[i] = parseInt(str.charAt(i));
-	  sum = sum + arr[i]*Math.pow(10,(length-i-1));
+	  //sum = sum + arr[i]*Math.pow(10,(length-i-1));
   }
   
   var toparr = new Array();
