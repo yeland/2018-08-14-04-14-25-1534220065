@@ -1,5 +1,5 @@
 module.exports = function main() {
-    //console.log("Debug Info");
+    console.log("Debug Info");
     //return 'Hello World!';
 	
 	if(arguments.length===0){
@@ -33,7 +33,8 @@ module.exports = function main() {
   midarr.push('\n');
   botarr.push('\n');
   
-  return sum;
-  console.log(toparr.join(' ')+midarr.join(' ')+botarr.join(' '));
+  return (toparr.join(' ')+midarr.join(' ')+botarr.join(' '));
+  //return sum;
+  //console.log(toparr.join(' ')+midarr.join(' ')+botarr.join(' '));
   //console.log(toparr.join(' ')+'\n'+midarr.join(' ')+'\n'+botarr.join(' ')+'\n');
 };
