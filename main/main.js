@@ -13,8 +13,10 @@ module.exports = function main() {
   var str = arguments[0];
   var length = str.length;
   var arr = new Array();
+  var sum = 0;
   for(var i=0;i<length;i++){
 	  arr[i] = parseInt(str.charAt(i));
+	  sum = sum + arr[i]*Math.pow(10,i);
   }
   
   var toparr = new Array();
@@ -31,6 +33,7 @@ module.exports = function main() {
   midarr.push('\n');
   botarr.push('\n');
   
+  return sum;
   console.log(toparr.join(' ')+midarr.join(' ')+botarr.join(' '));
   //console.log(toparr.join(' ')+'\n'+midarr.join(' ')+'\n'+botarr.join(' ')+'\n');
 };
