@@ -1,6 +1,6 @@
 module.exports = function main() {
     console.log("Debug Info");
-    return 'Hello World!';
+    //return 'Hello World!';
 	
 	if(arguments.length===0){
 	return 0;
@@ -8,7 +8,7 @@ module.exports = function main() {
   
   var toplcd = ['._.','...','._.','._.','...','._.','._.','._.','._.','._.'];
   var midlcd = ['|.|','..|','._|','._|','|_|','|_.','|_.','..|','|_|','|_|'];
-  var botlcd = ['|_|','..|','|_.',',_|','..|','._|','|_|','..|','|_|','..|'];
+  var botlcd = ['|_|','..|','|_.','._|','..|','._|','|_|','..|','|_|','..|'];
   
   var str = arguments[0];
   var length = str.length;
@@ -31,5 +31,5 @@ module.exports = function main() {
   //midarr.push("\n");
   //botarr.push("\n");
   
-  console.log(toparr.join(" ")+'\n'+midarr.join(" ")+'\n'+botarr.join(" "));
+  console.log(toparr.join(" ")+'\n'+midarr.join(" ")+'\n'+botarr.join(" ")+'\n');
 };
