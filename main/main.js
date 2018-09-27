@@ -27,9 +27,10 @@ module.exports = function main() {
 	  botarr[i] = botlcd[arr[i]];
   }
   
-  //toparr.push("\n");
-  //midarr.push("\n");
-  //botarr.push("\n");
+  toparr.push('\n');
+  midarr.push('\n');
+  botarr.push('\n');
   
-  console.log(toparr.join(' ')+'\n'+midarr.join(' ')+'\n'+botarr.join(' ')+'\n');
+  console.log(toparr.join(' ')+midarr.join(' ')+botarr.join(' '));
+  //console.log(toparr.join(' ')+'\n'+midarr.join(' ')+'\n'+botarr.join(' ')+'\n');
 };
