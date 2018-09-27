@@ -1,6 +1,6 @@
 module.exports = function main() {
-    //console.log("Debug Info");
-    //return 'Hello World!';
+    console.log("Debug Info");
+    return 'Hello World!';
 	
 	if(arguments.length===0){
 	return 0;
