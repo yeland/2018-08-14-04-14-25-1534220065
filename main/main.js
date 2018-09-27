@@ -31,5 +31,5 @@ module.exports = function main() {
   //midarr.push("\n");
   //botarr.push("\n");
   
-  console.log(toparr.join(" ")+'\n'+midarr.join(" ")+'\n'+botarr.join(" ")+'\n');
+  console.log(toparr.join(" ")+'\n'+midarr.join(" ")+'\n'+botarr.join(" "));
 };
