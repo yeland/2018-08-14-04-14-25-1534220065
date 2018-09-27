@@ -16,7 +16,7 @@ module.exports = function main() {
   var sum = 0;
   for(var i=0;i<length;i++){
 	  arr[i] = parseInt(str.charAt(i));
-	  sum = sum + arr[i]*Math.pow(10,i);
+	  sum = sum + arr[i]*Math.pow(10,(length-i));
   }
   
   var toparr = new Array();
