@@ -1,5 +1,5 @@
 module.exports = function main() {
-    console.log("Debug Info");
+    //console.log("Debug Info");
     //return 'Hello World!';
 	
 	if(arguments.length===0){
